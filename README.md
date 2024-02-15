@@ -8,6 +8,14 @@ This Alfred workflow appends log entries to your Daily Note in Obsidian.
 Install the [Advanced URI](https://obsidian.md/plugins?id=obsidian-advanced-uri) community plugin for Obsidian.
 
 
+## Workflow Installation
+
+Download the raw Alfred worklfow file from Github:
+[Log to Obsidian.alfredworkflow](https://github.com/iancrocker/alfred-log-to-obsidian/blob/main/Log%20to%20Obsidian.alfredworkflow)
+
+Double click to install the workflow to Alfred.
+
+
 ## Alfred Setup
 
 Complete the following fields: 
