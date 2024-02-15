@@ -130,7 +130,7 @@
 				<key>fixedorder</key>
 				<true/>
 				<key>items</key>
-				<string>[{"title":"Default","subtitle":"Generic log"},{"title":"Books","arg":"books::","subtitle":"books:: log"},{"title":"Music","arg":"music::","subtitle":"music:: log"},{"title":"TV","arg":"tv::","subtitle":"tv:: log"}]</string>
+				<string>[{"title":"Default","subtitle":"{var:LogEntry}"},{"title":"Books","arg":"log-books::","subtitle":"log-books:: {var:LogEntry}"},{"title":"Music","arg":"log-music::","subtitle":"log-music:: {var:LogEntry}"},{"title":"TV","arg":"log-tv::","subtitle":"log-tv:: {var:LogEntry}"}]</string>
 				<key>matchmode</key>
 				<integer>0</integer>
 				<key>runningsubtext</key>
@@ -277,6 +277,13 @@ This workflow appends log entries to your Daily Note in Obsidian.
 ## Obsidian Setup
 
 Install the [Advanced URI](https://obsidian.md/plugins?id=obsidian-advanced-uri) community plugin for Obsidian.
+
+## Workflow Installation
+
+Download the raw Alfred worklfow file from Github:
+[Log to Obsidian.alfredworkflow](https://github.com/iancrocker/alfred-log-to-obsidian/blob/main/Log%20to%20Obsidian.alfredworkflow)
+
+Double click to install the workflow to Alfred.
 
 
 ## Alfred Setup
@@ -469,8 +476,6 @@ If you find this Workflow useful you can can [donate on Ko-fi](https://ko-fi.com
 			<string>Notifications</string>
 		</dict>
 	</array>
-	<key>variablesdontexport</key>
-	<array/>
 	<key>version</key>
 	<string>0.1.0</string>
 	<key>webaddress</key>
